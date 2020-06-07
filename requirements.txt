@@ -1,0 +1,8 @@
+atari-py
+gym
+matplotlib
+numpy
+opencv-python
+scipy
+tensorboard
+torch

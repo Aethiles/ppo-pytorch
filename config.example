@@ -1,0 +1,32 @@
+[0]
+# Environment name must not include NoFrameskip, but must include version tag
+env_name = BeamRider-v4
+
+# Group configuration overrides shared configuration
+nn_learn_rate = 0.002
+
+[1]
+env_name = Breakout-v4
+
+[2]
+env_name = Pong-v4
+
+[3]
+env_name = Seaquest-v4
+
+[4]
+env_name = SpaceInvaders-v4
+
+[5]
+# If shared arguments shall not be overridden, an empty section can be provided.
+
+[Shared]
+# Arguments must match names provided in source.utilities.config.hyperparameters and will use the types outlined in the
+# HyperParameters class.
+env_name = BeamRider-v4
+ppo_clipping_parameter = 0.1
+nn_learn_rate = 0.003
+
+# AtariSize must be provided using the string name
+# nn_size = SMALL
+# nn_size = LARGE

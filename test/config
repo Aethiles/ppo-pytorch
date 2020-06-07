@@ -1,0 +1,7 @@
+[1]
+env_name = Test-v4
+nn_learn_rate = 1
+
+[Shared]
+nn_learn_rate = 5
+ppo_epochs = 17
