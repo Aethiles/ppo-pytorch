@@ -6,7 +6,7 @@ See `requirements.txt` for all required packages. Copy `config.example` to `conf
 
 # Usage
 Use `python -m source.main` to start a training run. The configuration can be adjusted by modifying either the file
-`config` or the class `HyperParameters` in `source/utilities/config/`hyperparameters.py`.
+`config` or the class `HyperParameters` in `source/utilities/config/hyperparameters.py`.
 
 # Tests
 This implementation was tested extensively through unit and integration tests as well as manual tests. The results of

@@ -19,7 +19,7 @@ class Run:
 
     def get_dict(self,
                  ):
-        return {'steps': self.steps.tolist(), 'values': self.steps.tolist()}
+        return {'steps': self.steps.tolist(), 'values': self.values.tolist()}
 
 
 @dataclass
