@@ -8,6 +8,9 @@ See `requirements.txt` for all required packages. Copy `config.example` to `conf
 Use `python -m source.main` to start a training run. The configuration can be adjusted by modifying either the file
 `config` or the class `HyperParameters` in `source/utilities/config/hyperparameters.py`.
 
+Use `python -m source.demo` to run a demo. Trained modes of BeamRider, Breakout and Pong are available. Consult 
+`python -m source.demo -h` for a full list of options.
+
 # Tests
 This implementation was tested extensively through unit and integration tests as well as manual tests. The results of
 many experiments can be found in the repository [ppo-results](https://github.com/aethiles/ppo-results). In terms of
